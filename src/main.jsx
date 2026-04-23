@@ -3,8 +3,9 @@ import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import MENU from './menu.jsx'
-import Users from './components/users.jsx'
+import Users from './components/UserList.jsx'
 import AddUser from './components/addUser.jsx'
+
 
 
 

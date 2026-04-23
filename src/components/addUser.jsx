@@ -40,7 +40,7 @@ const AddUser = () => {
             <div className="d-flex justify-content-between align-items-center mb-4">
                 <div></div>
                 <Link to={'/users'} className="btn btn-secondary btn-sm">
-                    All Users
+                    Users List
                 </Link>
             </div>
 

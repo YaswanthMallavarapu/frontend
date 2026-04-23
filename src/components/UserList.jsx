@@ -7,7 +7,7 @@ const Users = () => {
     const [users, setUsers] = useState([])
     const [errMsg, setErrMsg] = useState(undefined)
     
-    const api = "https://jsonplaceholder.typicode.com/users?_page=0&_limit=5"
+    const api = "https://jsonplaceholder.typicode.com/users"
 
     const fetchUsers = async () => {
         try {
